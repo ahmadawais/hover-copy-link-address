@@ -1,0 +1,2 @@
+Icon derived from Heroicons (https://heroicons.com) by Tailwind Labs.
+Licensed under the MIT License.
