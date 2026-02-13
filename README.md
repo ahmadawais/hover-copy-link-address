@@ -1,5 +1,7 @@
 # Hover Copy Link Address
 
+![Hover Copy Link Address cover](.github/cover.svg)
+
 Copy any link URL by hovering over it and pressing `Ctrl+C` (`Cmd+C` on Mac) — no right-click menu needed.
 
 ## Usage

@@ -1,0 +1,112 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hover Copy Link Address Cover</title>
+  <desc id="desc">A dark themed cover showing instant link copying with keyboard shortcuts.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080B12"/>
+      <stop offset="0.55" stop-color="#0D1422"/>
+      <stop offset="1" stop-color="#091423"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(955 310) rotate(146.59) scale(482.434 351.482)">
+      <stop stop-color="#34D399" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#9CA3AF" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity="0.35" flood-color="#020617"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="48" y="58" width="1104" height="514" rx="28" fill="#0A1020" fill-opacity="0.65" stroke="#93C5FD" stroke-opacity="0.22"/>
+  </g>
+
+  <g>
+    <rect x="82" y="96" width="280" height="34" rx="17" fill="#111827" stroke="#93C5FD" stroke-opacity="0.35"/>
+    <circle cx="103" cy="113" r="5" fill="#34D399"/>
+    <text x="119" y="118" fill="#D1FAE5" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" letter-spacing="1.2">CHROME EXTENSION</text>
+  </g>
+
+  <g>
+    <text x="82" y="230" fill="#F8FAFC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="66" font-weight="700" letter-spacing="-1.2">
+      Hover Copy Link Address
+    </text>
+    <text x="82" y="274" fill="#CBD5E1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="25">
+      Copy hovered links instantly with Cmd/Ctrl + C
+    </text>
+  </g>
+
+  <g>
+    <rect x="82" y="318" width="186" height="48" rx="24" fill="#0F172A" stroke="#5EEAD4" stroke-opacity="0.5"/>
+    <text x="117" y="348" fill="#CCFBF1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="600">
+      Hover Link
+    </text>
+
+    <rect x="282" y="318" width="218" height="48" rx="24" fill="#0F172A" stroke="#60A5FA" stroke-opacity="0.5"/>
+    <text x="317" y="348" fill="#DBEAFE" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="600">
+      Cmd/Ctrl + C
+    </text>
+
+    <rect x="514" y="318" width="250" height="48" rx="24" fill="#0F172A" stroke="#A5B4FC" stroke-opacity="0.35"/>
+    <text x="548" y="348" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="600">
+      Clipboard Ready
+    </text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="716" y="134" width="410" height="358" rx="22" fill="#0B1220" stroke="#38BDF8" stroke-opacity="0.34"/>
+    <rect x="716" y="134" width="410" height="44" rx="22" fill="#111827"/>
+    <circle cx="746" cy="156" r="6" fill="#F87171"/>
+    <circle cx="768" cy="156" r="6" fill="#FBBF24"/>
+    <circle cx="790" cy="156" r="6" fill="#4ADE80"/>
+    <rect x="823" y="146" width="272" height="20" rx="10" fill="#1F2937"/>
+    <text x="838" y="160" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+      https://example.com
+    </text>
+
+    <rect x="752" y="214" width="338" height="68" rx="14" fill="#111B2E"/>
+    <text x="776" y="242" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" font-weight="600">
+      Getting Started Guide
+    </text>
+    <text x="776" y="264" fill="#60A5FA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">
+      https://example.com/docs/start
+    </text>
+
+    <rect x="752" y="302" width="338" height="68" rx="14" fill="#0F172A" stroke="#34D399" stroke-opacity="0.45"/>
+    <text x="776" y="330" fill="#CCFBF1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" font-weight="700">
+      Hovered Link Detected
+    </text>
+    <text x="776" y="352" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">
+      https://example.com/blog/ship-faster
+    </text>
+
+    <rect x="866" y="396" width="224" height="56" rx="14" fill="url(#accent)"/>
+    <text x="922" y="430" fill="#04111F" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="19" font-weight="800">
+      Copied
+    </text>
+  </g>
+
+  <g opacity="0.75">
+    <path d="M748 514C764 498 790 498 806 514L838 546C854 562 854 588 838 604" stroke="#93C5FD" stroke-width="6" stroke-linecap="round"/>
+    <path d="M808 514C824 498 850 498 866 514L898 546C914 562 914 588 898 604" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <rect x="82" y="404" width="572" height="132" rx="20" fill="#0A1220" stroke="#1E293B"/>
+  <text x="112" y="449" fill="#94A3B8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20">
+    No right click. No menu hunt. No text-selection side effects.
+  </text>
+  <text x="112" y="487" fill="#F1F5F9" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="700">
+    Just hover and copy.
+  </text>
+</svg>
