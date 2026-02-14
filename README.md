@@ -2,15 +2,15 @@
 
 ![Hover Copy Link Address cover](.github/cover.svg)
 
-Copy any link URL by hovering over it and pressing `Ctrl+C` (`Cmd+C` on Mac) — no right-click menu needed.
+Copy any link URL by hovering over it and pressing `Cmd+C` (`Ctrl+C` on Windows/Linux) — no right-click menu needed.
 
 ## Usage
 
 1. Hover over any link on a webpage
-2. Press `Ctrl+C` (or `Cmd+C` on Mac)
+2. Press `Cmd+C` (or `Ctrl+C` on Windows/Linux)
 3. The link's URL is copied to your clipboard
 
-If you have text selected on the page, `Ctrl+C` copies your selection as usual — the extension stays out of the way.
+If you have text selected on the page, `Cmd+C` (`Ctrl+C`) copies your selection as usual — the extension stays out of the way.
 
 ## Install
 
