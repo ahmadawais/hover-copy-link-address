@@ -16,9 +16,11 @@
 	}, true);
 
 	document.addEventListener('copy', (e) => {
-		if (!hoveredLink) return;
-		if (window.getSelection().toString()) return;
+		const link = hoveredLink || document.querySelector('a[href]:hover');
+		if (!link) return;
+		const sel = window.getSelection();
+		if (sel.toString() && !link.contains(sel.anchorNode)) return;
 		e.preventDefault();
-		e.clipboardData.setData('text/plain', hoveredLink.href);
+		e.clipboardData.setData('text/plain', link.href);
 	});
 })();
